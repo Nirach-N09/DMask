@@ -1,0 +1,9 @@
+extern const unsigned char gImage_WHNG1[];
+//extern const unsigned char gImage_WH2[];
+//extern const unsigned char gImage_WH3[];
+//extern const unsigned char gImage_WH4[];
+extern const unsigned char gImage_WCNG1[];
+//extern const unsigned char gImage_WC2[];
+//extern const unsigned char gImage_WC3[];
+//extern const unsigned char gImage_WC4[];
+extern const unsigned char gImage_WHENG1[];
