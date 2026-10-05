@@ -24,9 +24,9 @@ Arduino_DataBus *bus1 = new Arduino_HWSPI(9, 10, 12, 11);
 Arduino_DataBus *bus2 = new Arduino_HWSPI(9,  1, 12, 11);
 Arduino_DataBus *bus3 = new Arduino_HWSPI(9,  2, 12, 11);
 
-Arduino_GFX *gfx1 = new Arduino_ST7789(bus1,  8, 0, true, 240, 280,  0,  0);
+Arduino_GFX *gfx1 = new Arduino_ST7789(bus1,  8, 0, true, 240, 280,  0,  20);
 Arduino_GFX *gfx2 = new Arduino_ST7789(bus2, 17, 0, true, 172, 320, 34,  0);
-Arduino_GFX *gfx3 = new Arduino_ST7789(bus3, 18, 0, true, 240, 280,  0,  0);
+Arduino_GFX *gfx3 = new Arduino_ST7789(bus3, 18, 0, true, 240, 280,  0,  20);
 
 // --- PSRAM tint buffer ---
 uint16_t* tintBuffer = nullptr;
