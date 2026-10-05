@@ -4,8 +4,8 @@
 #include <Adafruit_NeoPixel.h>
 #include <Preferences.h>
 #include "Image.h"
-#include "C:/Users/xcon/Documents/Arduino/libraries/Adafruit_GFX_Library/Fonts/FreeSansBold24pt7b.h"
-#include "C:/Users/xcon/Documents/Arduino/libraries/Adafruit_GFX_Library/Fonts/FreeSansBold18pt7b.h"
+#include "##YOUR PATH HERE##/libraries/Adafruit_GFX_Library/Fonts/FreeSansBold24pt7b.h"
+#include "##YOUR PATH HERE##/libraries/Adafruit_GFX_Library/Fonts/FreeSansBold18pt7b.h"
 
 // --- Display setup ---
 #define TFT_BL 7
